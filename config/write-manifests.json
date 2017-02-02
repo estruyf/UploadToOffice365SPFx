@@ -1,0 +1,3 @@
+{
+  "cdnBasePath": "https://publiccdn.sharepointonline.com/<tenant host name>/<ID of the public CDN origin>/<sub-path under the origin>/"
+}

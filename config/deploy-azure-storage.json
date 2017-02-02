@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "spfx-sample-office-365-cdn",
+  "accessKey": "<!-- ACCESS KEY -->"
+}
