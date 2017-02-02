@@ -31,6 +31,6 @@ obj
 # Styles Generated Code
 *.scss.ts
 
-write-manifest.1.json
+config/write-manifests.local.json
 gulpfile-local.js
 .vscode
