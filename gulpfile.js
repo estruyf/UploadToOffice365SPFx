@@ -47,8 +47,6 @@ build.task('upload-app-pkg', {
 		return new Promise((resolve, reject) => {
 			const pkgFile = require('./config/package-solution.json');
 			const folderLocation = `./sharepoint/${pkgFile.paths.zippedPackage}`;
-
-			console.log(`Uploading to: https://${config.production ? production.tenant : test.tenant}.sharepoint.com/${config.production ? production.catalogSite : test.catalogSite}`)
 			
 			return gulp.src(folderLocation)
 			.pipe(spsync({
