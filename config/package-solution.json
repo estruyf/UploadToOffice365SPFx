@@ -2,7 +2,7 @@
   "solution": {
     "name": "spfx-sample-office-365-cdn-client-side-solution",
     "id": "674bc92b-16ec-4754-b381-7a961251fa37",
-    "version": "1.0.0.0"
+    "version": "1.0.0.1"
   },
   "paths": {
     "zippedPackage": "solution/spfx-sample-office-365-cdn.sppkg"
