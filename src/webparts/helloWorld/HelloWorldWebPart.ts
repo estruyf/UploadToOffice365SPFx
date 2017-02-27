@@ -8,7 +8,8 @@ import {
 } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'helloWorldStrings';
-import HelloWorld, { IHelloWorldProps } from './components/HelloWorld';
+import HelloWorld from './components/HelloWorld';
+import { IHelloWorldProps } from './components/IHelloWorldProps';
 import { IHelloWorldWebPartProps } from './IHelloWorldWebPartProps';
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
