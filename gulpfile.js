@@ -25,7 +25,7 @@ const test = {
 build.task('upload-to-sharepoint', {
 	execute: (config) => {
 		return new Promise((resolve, reject) => {
-			const deployFolder = require('./config/prepare-deploy.json');
+			const deployFolder = require('./config/copy-assets.json');
 			const folderLocation = `./${deployFolder.deployCdnPath}/**/*.js`;
 			
 			return gulp.src(folderLocation)
